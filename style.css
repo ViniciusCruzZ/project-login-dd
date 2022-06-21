@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    background-color: var(--background);
+    margin-left: 20px;
+}
+
+header {
+    margin-top: 40px;
+}
+
+header > div {
+    margin-top: 40px;
+}
+
+header h1 {
+    color: var(--text-title);
+    font-family: 'Poppins', sans-serif;
+}
+
+header p {
+    color: var(--text-base);
+    font-family: 'Roboto', sans-serif;
+}
+
+.email {
+    margin-top: 40px;
+}
+
+.email label {
+    color: var(--text-base);
+    font-family: 'Poppins', sans-serif;
+}
+
+.email input {
+    margin-top: 5px;
+    padding: 14px 0;
+    width: 335px;
+    border: 3px solid var(--text-base);
+    color: var(--text-base);
+    text-indent: 24px;
+    border-radius: 4px;
+    background-image: url(assets/images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    background-color: var(--background);
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.email input:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+    background-image: url(assets/images/mail-focus.svg);
+}
+
+.senha label {
+    color: var(--text-base);
+    font-family: 'Poppins', sans-serif;
+}
+
+.senha input {
+    margin-top: 5px;
+    padding: 14px 0;
+    width: 335px;
+    border: 3px solid var(--text-base);
+    color: var(--text-base);
+    text-indent: 24px;
+    border-radius: 4px;
+    background-image: url(assets/images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+}
+
+.senha input:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+    background-image: url(assets/images/lock-focus.svg);
+}
+
+.help {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.remember {
+    margin-right: 75px;
+    color: var(--text-base);
+}
+
+.remember {
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+}
+
+.forgot-pass a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.forgot-pass a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--form-background);
+    width: 334px;
+    padding: 12px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.invite {
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-left: 48px;
+}
+
+.invite a {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.invite a:hover {
+    text-decoration: underline;
+}
